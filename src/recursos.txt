@@ -1,0 +1,10 @@
+{
+"title": "Parlantes",
+"description": "JBL",
+"price": 522,
+"code": "852W",
+"stock": 50,
+"category": "A",
+"status":"true"
+}
+
