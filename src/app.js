@@ -56,9 +56,9 @@ app.use('/api/chat', chatRouter)
 
 async function dataBase() {
     try {
-        //await mongoose.connect('mongodb+srv://oliveiradiogo00:z2xGXgqIUN2fgTzo@cluster0.pgeuig7.mongodb.net/?retryWrites=true&w=majority', { dbName: 'ecommerce'})
+       
         await mongoose.connect(MONGO_URL,{dbName:DBNAME})//{dbName:'ecommerce'}
-        //let products = await productosModel.paginate({},{limit:10, page:1})
+       
         console.log('DB online')
     } catch (error) {
         console.log(error.message)
